@@ -42,3 +42,17 @@ createBtn.addEventListener('click', () => {
 });
 
 destroyBtn.addEventListener('click', destroyBoxes);
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+  background-color: #f6f6fe;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  min-height: 200px;
+  min-width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
