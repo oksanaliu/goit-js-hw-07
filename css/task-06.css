@@ -3,7 +3,6 @@
     gap: 16px;
     margin-bottom: 16px;
     align-items: center;
-    justify-content: center;
 }
 
 #controls input {
@@ -41,4 +40,15 @@
     padding: 16px;
     border-radius: 8px;
     border: 1px solid #ddd;
+    min-height: 200px;
+}
+
+#boxes div {
+    display: inline-block;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+#boxes div:hover {
+    transform: scale(1.1);
 }
