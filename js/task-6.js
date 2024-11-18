@@ -1,6 +1,6 @@
 const controls = document.getElementById('controls');
 const boxesContainer = document.getElementById('boxes');
-const input = controls.querySelector('input[type="number"]');
+const inputControl = controls.querySelector('input[type="number"]');
 const createBtn = controls.querySelector('[data-create]');
 const destroyBtn = controls.querySelector('[data-destroy]');
 
@@ -33,10 +33,10 @@ function destroyBoxes() {
 }
 
 createBtn.addEventListener('click', () => {
-  const amount = parseInt(input.value, 10);
+  const amount = parseInt(inputControl.value, 10);
   if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
-    input.value = '';
+    inputControl.value = '';
   } else {
     alert('Please enter a number between 1 and 100');
   }
