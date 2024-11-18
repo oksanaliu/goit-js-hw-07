@@ -20,6 +20,7 @@ function createBoxes(amount) {
     box.style.width = `${size}px`;
     box.style.height = `${size}px`;
     box.style.backgroundColor = getRandomHexColor();
+    box.style.margin = '5px';
     fragment.appendChild(box);
     size += 10;
   }
