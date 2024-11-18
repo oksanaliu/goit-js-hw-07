@@ -11,7 +11,7 @@ function getRandomHexColor() {
 }
 
 function createBoxes(amount) {
-  destroyBoxes();
+  boxesContainer.innerHTML = '';
   const fragment = document.createDocumentFragment();
   let size = 30;
 
@@ -20,7 +20,6 @@ function createBoxes(amount) {
     box.style.width = `${size}px`;
     box.style.height = `${size}px`;
     box.style.backgroundColor = getRandomHexColor();
-    box.style.margin = '5px';
     fragment.appendChild(box);
     size += 10;
   }
@@ -37,8 +36,6 @@ createBtn.addEventListener('click', () => {
   if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
     inputControl.value = '';
-  } else {
-    alert('Please enter a number between 1 and 100');
   }
 });
 
