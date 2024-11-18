@@ -1,0 +1,17 @@
+#categories {
+    list-style: none;
+    padding: 0;
+}
+
+#categories .item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #F6F6FE;
+    border-radius: 8px;
+}
+
+#categories .item h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}

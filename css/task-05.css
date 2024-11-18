@@ -1,0 +1,9 @@
+.widget {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.color {
+    font-weight: bold;
+}

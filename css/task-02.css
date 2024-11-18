@@ -1,0 +1,12 @@
+.gallery {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.gallery li img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
