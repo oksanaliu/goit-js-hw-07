@@ -1,12 +1,16 @@
 .gallery {
-    display: flex;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 16px;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .gallery li img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
