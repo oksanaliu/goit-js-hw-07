@@ -2,8 +2,28 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f6f6fe;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .color {
     font-weight: bold;
+    color: #333;
+}
+
+.change-color {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.change-color:hover {
+    background-color: #555;
 }
