@@ -28,9 +28,7 @@
     transition: border-color 0.3s ease;
 }
 
-#name-input:focus {
-    border-color: #6200ee;
-}
+#name-input:focus {}
 
 h3 {
     font-size: 18px;
@@ -39,5 +37,4 @@ h3 {
 
 #name-output {
     font-weight: bold;
-    color: #6200ee;
 }
